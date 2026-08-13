@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR Collection | Crochet</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #ffffff;
+            color: #222;
+        }
+
+        header {
+            background: #dff3e5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #238636;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 8px;
+            color: #555;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #238636;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 35px;
+            color: #238636;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #238636;
+            color: white;
+            padding: 13px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #238636;
+            margin-bottom: 25px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            width: 250px;
+            padding: 20px;
+            border-radius: 15px;
+            background: #f5faf6;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .product .photo {
+            height: 200px;
+            background: #dff3e5;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #238636;
+            margin-bottom: 15px;
+        }
+
+        .product h3 {
+            margin-bottom: 8px;
+        }
+
+        .price {
+            color: #238636;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #dff3e5;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CR Collection 🧶</h1>
+        <p>Créations crochetées avec amour 💚</p>
+
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#creations">Créations</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="accueil">
+        <h2>Bienvenue chez CR Collection</h2>
+        <p>
+            Des créations crochetées uniques, faites avec passion.
+        </p>
+
+        <a href="#creations" class="button">Découvrir nos créations</a>
+    </section>
+
+    <section id="creations">
+        <h2>Nos créations 🧶</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <div class="photo">Photo du produit</div>
+                <h3>Crop Top Crochet</h3>
+                <p class="price">Prix : À définir</p>
+            </div>
+
+            <div class="product">
+                <div class="photo">Photo du produit</div>
+                <h3>Jupe Crochet</h3>
+                <p class="price">Prix : À définir</p>
+            </div>
+
+            <div class="product">
+                <div class="photo">Photo du produit</div>
+                <h3>Chapeau Crochet</h3>
+                <p class="price">Prix : À définir</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact 💌</h2>
+        <p>Tu veux commander une création ?</p>
+        <br>
+        <a href="#" class="button">Nous contacter</a>
+    </section>
+
+    <footer>
+        <p>© 2026 CR Collection — Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
