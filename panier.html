@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CR Collection | Mon panier</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #ffffff;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background: #dff5e1;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        header h1 {
+            color: #267a3d;
+            font-size: 30px;
+        }
+
+        header p {
+            margin-top: 6px;
+            color: #555;
+        }
+
+        /* MENU */
+        nav {
+            background: #267a3d;
+            padding: 13px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* TITRE */
+        .titre {
+            text-align: center;
+            margin: 35px 0 20px;
+        }
+
+        .titre h2 {
+            color: #267a3d;
+            font-size: 28px;
+        }
+
+        /* PANIER */
+        .panier {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .article {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f5faf6;
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .article-info h3 {
+            color: #267a3d;
+            margin-bottom: 5px;
+        }
+
+        .article-info p {
+            color: #555;
+        }
+
+        .supprimer {
+            border: none;
+            background: #267a3d;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .supprimer:hover {
+            background: #1d5e2f;
+        }
+
+        /* TOTAL */
+        .total {
+            text-align: right;
+            border-top: 2px solid #dff5e1;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .total h3 {
+            font-size: 23px;
+            color: #267a3d;
+        }
+
+        /* COMMANDER */
+        .commande {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .whatsapp {
+            display: inline-block;
+            background: #267a3d;
+            color: white;
+            text-decoration: none;
+            padding: 13px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .whatsapp:hover {
+            background: #1d5e2f;
+        }
+
+        /* CONTACT */
+        .contact {
+            background: #dff5e1;
+            text-align: center;
+            padding: 30px 15px;
+            margin-top: 40px;
+        }
+
+        .contact h2 {
+            color: #267a3d;
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            margin: 10px;
+        }
+
+        .contact a {
+            color: #267a3d;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #267a3d;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 500px) {
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .article {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+
+            .supprimer {
+                align-self: flex-end;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>CR COLLECTION</h1>
+        <p>Mode • Crochet • Élégance</p>
+    </header>
+
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">
